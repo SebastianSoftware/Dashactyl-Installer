@@ -40,7 +40,7 @@ install_options(){
         6 ) installoption=6
             update_check
             ;;
-        * ) output "You did not enter a valid selection."
+        * ) echo "You did not enter a valid selection."
             install_options
     esac
 }
